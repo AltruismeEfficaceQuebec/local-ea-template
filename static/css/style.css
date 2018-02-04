@@ -80,3 +80,38 @@ textarea {
   font-size: 0.75em;
   line-height: 0.5em;
 }
+
+.btn {
+  margin: .1rem;
+}
+
+.btn-tertiary {
+  color: #fff;
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.btn-tertiary:hover {
+  color: #fff;
+  background-color: #e60000;
+  border-color: #e60000;
+}
+
+.btn-tertiary:focus, .btn-tertiary.focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(173, 181, 189, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(173, 181, 189, 0.5);
+}
+
+.btn-tertiary.disabled, .btn-tertiary:disabled {
+  background-color: #adb5bd;
+  border-color: #adb5bd;
+}
+
+.btn-tertiary:not([disabled]):not(.disabled):active, .btn-tertiary:not([disabled]):not(.disabled).active,
+.show > .btn-tertiary.dropdown-toggle {
+  color: #111;
+  background-color: #919ca6;
+  border-color: #8a95a1;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(173, 181, 189, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(173, 181, 189, 0.5);
+}
