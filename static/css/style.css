@@ -116,3 +116,21 @@ textarea {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(173, 181, 189, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(173, 181, 189, 0.5);
 }
+
+.nav-link {
+  font-size: 16px !important;
+}
+
+.dropdown-menu {
+  font-size: 16px!important;
+  padding: .5rem
+}
+
+@media (max-width: 575px) {
+  .navbar-brand {
+    display: none;
+  }
+  .jumbotron {
+    padding: 3rem 1rem 2rem 1rem;
+  }
+}
