@@ -30,11 +30,11 @@ textarea {
 }
 
 .row.banner-section {
-  min-height: 350px;
+  min-height: 300px;
   position: relative;
   max-width: 100%;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   color: white;
   text-shadow: 0 0 8px #000;
   background-size: cover;
@@ -50,8 +50,8 @@ textarea {
 }
 
 .banner-section-text {
-  font-size: 1.8em;
-  font-weight: 300;
+  font-size: 2em;
+  font-weight: 900;
 }
 
 .no-gutter, .no-gutter > .row {
@@ -73,7 +73,7 @@ textarea {
 
 #ea-main-logo {
   margin-bottom: 2em;
-  height: 220px;
+  height: 175px;
 }
 
 #footer-legal {
@@ -133,4 +133,8 @@ textarea {
   .jumbotron {
     padding: 3rem 1rem 2rem 1rem;
   }
+}
+
+img {
+  max-width: 10rem;
 }
