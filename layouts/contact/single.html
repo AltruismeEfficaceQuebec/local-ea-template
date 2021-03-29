@@ -7,32 +7,7 @@
 </div>
 
 <section class="text-center">
-  <div class="container banner-section text-banner">
-      <p class="lead">{{ .Site.Params.contactform.leadText }}</p>
-
-      <container>
-          <form action="https://formspree.io/{{ .Site.Params.groupinfo.contactEmail }}"
-                method="POST">
-              <p>{{ .Site.Params.contactform.senderName }}:</p>
-              <input type="text" name="name">
-
-              <br><br>
-              <p>{{ .Site.Params.contactform.senderEmail }}:</p>
-              <input type="email" name="_replyto">
-
-              <br><br>
-              <p>{{ .Site.Params.contactform.emailSubject }}:</p>
-              <input type="text" name="_subject"/>
-
-              <br><br>
-              <p>{{ .Site.Params.contactform.emailMessage }}:</p>
-              <textarea rows=10 columns=30 name="_message"></textarea>
-
-              <br>
-              <input type="submit" value="{{ .Site.Params.contactform.send }}">
-          </form>
-      </container>
-  </div>
+  <p>{{ .Site.Params.contactform.leadText }} <a href="mailto:{{ .Site.Params.groupinfo.contactEmail }}">{{ .Site.Params.groupinfo.contactEmail }}</a></p>
 </section>
 
 {{ partial "footer.html" . }}
